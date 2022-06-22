@@ -1,3 +1,12 @@
+---
+layout: post
+title: "Hello World"
+author: "Sean Webster"
+categories: blog
+tags: [blog]
+image: bunny.jpg
+---
+
 # Hello World
 .
 .

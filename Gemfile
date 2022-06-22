@@ -1,7 +1,5 @@
-# frozen_string_literal: true
-gem "jekyll-theme-minimal", "~> 0.2.0"
 source "https://rubygems.org"
+gemspec
 gem "kramdown-parser-gfm"
-# gem "rails"
-
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 gem "webrick", "~> 1.7"

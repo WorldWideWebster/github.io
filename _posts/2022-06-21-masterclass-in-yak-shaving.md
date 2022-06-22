@@ -1,4 +1,11 @@
-# A Masterclass in Yak Shaving
+---
+layout: post
+title: "Master Class in Yak Shaving"
+author: "Sean Webster"
+categories: blog
+tags: [blog]
+image: bee.jpg
+---
 
 
 **According to google,** 
@@ -21,6 +28,12 @@ Migration [seems to exist](https://dylanbeattie.net/2019/08/14/migrating-from-bl
 to be relatively simple [in some cases](http://www.philjhale.com/2021-08-02-migrating-from-blogger-to-github-pages/#:~:text=First%2C%20export%20all%20the%20posts,XML%20file%20at%20the%20root.)
 
 As for general blog things, these things usually have pictures, right? Well, I'm fuzzy on copyright usage, etc. 
-While I look into that, here's a picture of a North American Carpenter Bee on a pumpkin flower that I took
+While I look into that, here's a picture of a North American Carpenter Bee on a pumpkin flower from my garden that I took
+on my Samsung Galaxy s9+. It really should be a yak, shouldn't it? 
+I've also switched to Millennial theme, a free jekyll theme thanks to [Paul Le](https://lenpaul.github.io/Millennial/).
 
-![bee](/assets/images/bee.jpg)
+I've also taken the liberty of adding a photo to my first post. It's a New England Cottontail, taken in my yard with\
+my Nikon D3400. I guess this is a good outlet to post my photos? 
+Maybe, some day, they'll be related to the posts.
+
+But, yes, yak shaving. Every good (or not) project starts with a healthy dose of yak shaving. Especially with tools.
