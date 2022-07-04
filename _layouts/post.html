@@ -23,11 +23,5 @@ layout: default
   {% if site.hide_related_posts != true %}
     {% include related-posts.html %}
   {% endif %}
-  <script src="https://utteranc.es/client.js"
-          repo="https://github.com/WorldWideWebster/worldwidewebster.github.io"
-          issue-term="pathname"
-          theme="github-light"
-          crossorigin="anonymous"
-          async>
-  </script>
+  {% include utteranc.html %}
 </div>
