@@ -3,9 +3,8 @@ layout: post
 title: "Using a Custom Library In KiCad in Windows"
 author: "Sean Webster"
 categories: blog
-tags: [blog][Tutorial][KiCad]
+tags: [blog,Tutorials,KiCad]
 image: nimbus_birthday.jpg
-clionID: M6fa7tzZdLw
 ---
 
 My dog's first birthday was this July 4th. Happy Birthday Nimbus! (See header picture of him enjoy a cake made for dogs)
