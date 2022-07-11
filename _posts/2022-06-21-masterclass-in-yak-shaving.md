@@ -5,6 +5,7 @@ author: "Sean Webster"
 categories: blog
 tags: [blog]
 image: bee.jpg
+mitmID: AbSehcT19u0
 ---
 
 
@@ -13,9 +14,12 @@ image: bee.jpg
 Yak shaving is programming lingo for the seemingly endless series of small tasks that have to be completed before the next step in a project can move forward
 
 
-I first heard the term years ago, and I can't remember the source. Here's another [great example](https://www.youtube.com/watch?v=AbSehcT19u0&ab_channel=VincentVerschuren)
+I first heard the term years ago, and I can't remember the source. Here's a great example
+{% include youtubePlayer.html id=page.mitmID %}
 
-Interestingly (to me) enough, the source of the original phrase stems from Ren and Stimpy's [Shaven Yak of Yaksmas Eve](http://www.deadpark.com/wp-content/uploads/Yak-Shaving-Day.mp4?_=1) 
+Interestingly (to me) enough, the source of the original phrase stems from Ren and Stimpy's [Shaven Yak of Yaksmas Eve](http://www.deadpark.com/wp-content/uploads/Yak-Shaving-Day.mp4?_=1)
+
+The term supposedly stems from the nonsensical preparation of odd tasks for the coming of the Shaven Yak.
 
 You get the idea.
 
@@ -37,3 +41,11 @@ my Nikon D3400. I guess this is a good outlet to post my photos?
 Maybe, some day, they'll be related to the posts.
 
 But, yes, yak shaving. Every good (or not) project starts with a healthy dose of yak shaving. Especially with tools.
+
+
+### 7/5/2022 Update
+I wanted comments on my blog, and found an open source github pages app called [utteranc](https://github.com/utterance)
+It works by attaching comments of a github repo to a blog. It was relatively easy to set up.
+
+I also wanted the ability to embed videos in my blog posts. I found [nathancy's jekyll-embed-video](https://github.com/nathancy/jekyll-embed-video)
+which is a rather nice, clean solution. Very easy to set up.
