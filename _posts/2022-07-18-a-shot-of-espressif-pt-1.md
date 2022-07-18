@@ -5,6 +5,7 @@ author: "Sean Webster"
 categories: blog, projects
 tags: [blog, espressif, ESP8266, ESP01, KiCad]
 image: moth.jpg
+clionID: M6fa7tzZdLw
 ---
 <sup>Picture: Hummingbird hawk-moth at Beebalm</sup>
 
