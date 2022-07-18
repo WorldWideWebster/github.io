@@ -49,3 +49,7 @@ It works by attaching comments of a github repo to a blog. It was relatively eas
 
 I also wanted the ability to embed videos in my blog posts. I found [nathancy's jekyll-embed-video](https://github.com/nathancy/jekyll-embed-video)
 which is a rather nice, clean solution. Very easy to set up.
+
+### 7/13/2022 Update
+I guess I'm just throwing blog updates here?
+I've added google analytics, with the help of this [site](https://desiredpersona.com/google-analytics-jekyll/)
