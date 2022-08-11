@@ -53,3 +53,6 @@ which is a rather nice, clean solution. Very easy to set up.
 ### 7/13/2022 Update
 I guess I'm just throwing blog updates here?
 I've added google analytics, with the help of this [site](https://desiredpersona.com/google-analytics-jekyll/)
+
+### 08/09/2022 Update
+I've added an auto table of content generator called [jekyll-toc by toshumaru](https://github.com/toshimaru/jekyll-toc)

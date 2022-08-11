@@ -3,7 +3,7 @@ layout: post
 title: "Using a Custom Library In KiCad in Windows"
 author: "Sean Webster"
 categories: blog
-tags: [blog,Tutorials,KiCad]
+tags: [blog,Tutorials,KiCad,arduino,tutorial]
 image: nimbus_birthday.jpg
 ---
 
@@ -17,7 +17,7 @@ people 40 or so minutes it took me to figure this out.
 
 These instructions may work for linux
 # Using a Custom Library
-KiCad by default saves user files to C:\Users\[your name]\Documents\KiCad\6.0, or similar
+KiCad by default saves user files to `C:\Users\[your name]\Documents\KiCad\6.0, or similar`
 I've Created a folder libraries in said directory, and put my libraries in it,
 I'm using [jdunmire's ESP8266 library](https://github.com/jdunmire/kicad-ESP8266)
 

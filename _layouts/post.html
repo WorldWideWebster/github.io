@@ -15,7 +15,7 @@ layout: default
     </div>
   {% endif %}
   <article>
-    {{ content }}
+    {{ content | toc }}
   </article>
   {% if site.hide_post_share != true %}
     {% include post-share.html %}

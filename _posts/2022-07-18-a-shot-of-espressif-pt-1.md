@@ -3,7 +3,7 @@ layout: post
 title: "A Shot of Espressif: Part One"
 author: "Sean Webster"
 categories: blog, projects
-tags: [blog, espressif, ESP8266, ESP01, KiCad]
+tags: [blog, espressif, ESP8266, ESP01, KiCad, tutorial, arduino]
 image: moth.jpg
 clionID: M6fa7tzZdLw
 ---
@@ -26,7 +26,13 @@ Any ways, I digress. Jetbrains has made a nice video for integrating
 
 {% include youtubePlayer.html id=page.clionID %}
 
-The IDF can be found [here](https://github.com/espressif/esp-idf) 
+## UPDATE:08/01/2022
+It has come to my attention trying to set this up, that the esp8266 is not a ESP32. They are both 32 bit micros.
+The video is still useful, though, but it is not exactly what I want.
+
+~~The IDF can be found [here](https://github.com/espressif/esp-idf)~~ (This is the ESP32 IDF)
+
+The ESP8266 IDF can be found [here](https://github.com/espressif/ESP8266_RTOS_SDK)
 
 ## First some hardware setup...
 So... a few years ago, I ordered some ESP-01ses. They sat around for a bit. Then a few years later I ordered some 
