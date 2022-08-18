@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A Shot of Espressif: Part Two"
+title: "A Second Shot of Espressif: Flashing an Espressif ESP01s with an arduino"
 author: "Sean Webster"
 categories: blog, projects
 tags: [blog, espressif, ESP8266, ESP01, arduino, tutorial]

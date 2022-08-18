@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A Shot of Espressif: Part One"
+title: "A Shot of Espressif: Using an Arduino to flash an Espressif ESP01s"
 author: "Sean Webster"
 categories: blog, projects
 tags: [blog, espressif, ESP8266, ESP01, KiCad, tutorial, arduino]
