@@ -4,7 +4,7 @@ title: "A Third Shot of Espressif: Flashing an Espressif ESP01s with an arduino 
 author: "Sean Webster"
 categories: blog, projects
 tags: [blog, espressif, ESP8266, ESP01, arduino, tutorial, blinky, PlatformIO]
-image: frog_wall.jpg
+image: frog_wall.png
 toc: true
 ---
 
