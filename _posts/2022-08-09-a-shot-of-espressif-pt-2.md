@@ -95,9 +95,13 @@ the button in on the breadboard. If that isn't the issue, doublecheck your COM p
 >Starting with version 4.0, ESP-IDF uses a build system based on CMake. In order to provide more seamless integration, PlatformIO uses the CMake file-based API to extract build configurations. Because of this approach, there is a conflict between CMakeLists.txt used by ESP-IDF and CMakeLists.txt which PlatformIO generates for CLion. At the moment we’re working on better integration with CLion without this intermediate CMakeLists.txt, but there is no ETA for this feature.
 
 
-Well, that's very disappointing... PlatformIO is a nice multiplatform tool, that abstracts away a bunch of the setup needed
+~~Well, that's very disappointing... PlatformIO is a nice multiplatform tool, that abstracts away a bunch of the setup needed
 for many microprocessors. However, that abstraction removes a lot of the freedom, and customization possible, especially 
-with their generated cmake files.
+with their generated cmake files.~~
+
+See the post after this for details on getting this working 
+
+[A Third Shot of Espressif: Flashing an Espressif ESP01s with an arduino using CLion and PlatformIO](2022-08-09-a-shot-of-espressif-pt-2.md)
 
 
 ## Building and flashing with CLion + Cmake - Broken

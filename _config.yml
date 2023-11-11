@@ -24,3 +24,6 @@ kramdown:
   
 # Google Analytics
 google_analytics: G-Z1BV878J0D
+
+sidebar:
+  nav: "projects"
