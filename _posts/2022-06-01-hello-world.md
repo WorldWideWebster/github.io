@@ -1,5 +1,6 @@
 ---
 layout: post
+parent: Posts
 title: "Hello World"
 author: "Sean Webster"
 categories: blog

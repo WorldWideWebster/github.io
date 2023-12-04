@@ -1,9 +1,10 @@
 ---
 layout: post
+parent: Posts
 title: "Using a Custom Library In KiCad in Windows"
 author: "Sean Webster"
 categories: blog
-tags: [blog,Tutorials,KiCad,arduino,tutorial]
+tags: [Tutorials,KiCad,arduino,tutorial]
 image: nimbus_birthday.jpg
 ---
 
@@ -25,34 +26,34 @@ I'm using [jdunmire's ESP8266 library](https://github.com/jdunmire/kicad-ESP8266
 
 Select the preferences in the top bar
 
-![Preferences](../assets/img/KiCad/1.JPG)
+![Preferences](/../assets/img/KiCad/1.JPG)
 
 Select Manage Symbol Libraries
 
-![Manage Symbol Libraries](../assets/img/KiCad/2.JPG)
+![Manage Symbol Libraries](/../assets/img/KiCad/2.JPG)
 
 Then Global Libraries tab
 
-![Global Libraries](../assets/img/KiCad/3.JPG)
+![Global Libraries](/../assets/img/KiCad/3.JPG)
 
 
 Then the Folder Icon(Add existing library from file)
 
 
-![Folder Icon(Add existing library from file)](../assets/img/KiCad/4.JPG)
+![Folder Icon(Add existing library from file)](/../assets/img/KiCad/4.JPG)
 
 Then locate the .lib file for the library you want to add and click ok
 
-![your library file](../assets/img/KiCad/5.JPG)
+![your library file](/../assets/img/KiCad/5.JPG)
 
 Hopefully, Sucess!
 
-![Success!](../assets/img/KiCad/6.JPG)
+![Success!](/../assets/img/KiCad/6.JPG)
 
 
 Very Cool
 
-![Very Cool](../assets/img/KiCad/7.JPG)
+![Very Cool](/../assets/img/KiCad/7.JPG)
 
 
 Now... back to actually trying to get work done on projects...

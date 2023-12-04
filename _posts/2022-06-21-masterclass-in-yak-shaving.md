@@ -1,5 +1,6 @@
 ---
 layout: post
+parent: Posts
 title: "Master Class in Yak Shaving"
 author: "Sean Webster"
 categories: blog

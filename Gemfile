@@ -1,6 +1,14 @@
 source "https://rubygems.org"
-gemspec
-gem "kramdown-parser-gfm"
-gem 'wdm', '>= 0.1.0' if Gem.win_platform?
-gem "webrick", "~> 1.7"
-gem 'jekyll-toc'
+ruby '3.1.2'
+
+gem "jekyll-github-metadata", ">= 2.15"
+
+gem "jekyll-include-cache", group: :jekyll_plugins
+
+gem "html-proofer", "~> 5.0", :group => :development
+
+gem "jekyll-paginate", "~> 1.1"
+
+gem "jekyll-redirect-from", "~> 0.16.0"
+
+gem "jekyll-seo-tag"

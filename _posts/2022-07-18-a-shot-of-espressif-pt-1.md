@@ -1,9 +1,10 @@
 ---
 layout: post
+parent: Posts
 title: "A Shot of Espressif: Using an Arduino to flash an Espressif ESP01s"
 author: "Sean Webster"
-categories: blog, projects
-tags: [blog, espressif, ESP8266, ESP01, KiCad, tutorial, arduino]
+categories: [blog, projects]
+tags: [espressif, ESP8266, ESP01, KiCad, tutorial, arduino]
 image: moth.jpg
 clionID: M6fa7tzZdLw
 ---
@@ -82,10 +83,10 @@ The arduino serial voltage level is 5V, so we use a voltage divider to get to th
 
 Forgive my first KiCad schematic. My fridge does not have a magnetic front, so this is the closest place I have to post it
 
-![ESP01 Arduino programmer](../assets/img/KiCad/schematics/arduino_esp01.svg)
+![ESP01 Arduino programmer](/../assets/img/KiCad/schematics/arduino_esp01.svg)
 
 Here is a bad picture of my setup
-![ESP01 Arduino programmer](../assets/img/KiCad/schematics/ESP01_ardruino.jpg)
+![ESP01 Arduino programmer](/../assets/img/KiCad/schematics/ESP01_ardruino.jpg)
 
 
 ## To be continued...

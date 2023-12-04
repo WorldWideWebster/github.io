@@ -1,0 +1,16 @@
+.crop-container {
+    height: 300px;
+    overflow: hidden;
+}
+.crop-container img {
+    margin-top: -100px;
+    margin-bottom: -100px;
+}
+
+.crop-container {
+    overflow: hidden;
+}
+.crop-container-footer img {
+    margin-top: -200px;
+    margin-bottom: -200px;
+}

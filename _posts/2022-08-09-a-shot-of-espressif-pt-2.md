@@ -1,12 +1,14 @@
 ---
 layout: post
+parent: Posts
 title: "A Second Shot of Espressif: Flashing an Espressif ESP01s with an arduino"
 author: "Sean Webster"
-categories: blog, projects
-tags: [blog, espressif, ESP8266, ESP01, arduino, tutorial]
+categories: [blog, projects]
+tags: [espressif, ESP8266, ESP01, arduino, tutorial]
 image: bee_flower.jpg
 toc: true
 ---
+<sup>Picture: Bumble bee and Anise Hyssop</sup>
 
 *Realistically*, I should be following proper ESD precautions (ESD mat, grounding bracelet, etc (It's worse than 
 you think, the ESD is about 2 feet to the right on where I'm working, and covered in my work stuff))
@@ -21,19 +23,19 @@ the ESP8266 board profile. Do that.
 
 Select the board (Generic ESP8266 Module)
 
-![Generic ESP8266 Module](../assets/img/arduino_ide_board_select.PNG)
+![Generic ESP8266 Module](/../assets/img/arduino_ide_board_select.PNG)
 
 Set the port (which has your arduino device (COM4 for me))
 
-![Arduino port](../assets/img/arduino_ide_port.PNG)
+![Arduino port](/../assets/img/arduino_ide_port.PNG)
 
 Set the Builtin LED to 2
 
-![Builtin LED](../assets/img/arduino_ide_led.PNG)
+![Builtin LED](/../assets/img/arduino_ide_led.PNG)
 
 Load up blinky
 
-![Blinky](../assets/img/blink.PNG)
+![Blinky](/../assets/img/blink.PNG)
 
 Press compile/upload. If there's trouble connecting to the ESP01, press that button that's connected to reset the ESP01 into
 bootloader mode. A blue LED should flash if it's hooked up properly.
@@ -64,24 +66,24 @@ Set your IDF_PATH `export $IDF_PATH=<YOUR_ESP>/ESP8266_RTOS_SDK`
 Now cd to your `hello_world` folder with `cd <YOUR_ESP>/hello_world`
 
 do a `make menuconfig` and select `Serial flasher config`,
-![menuconfig](../assets/img/mingw_make_menuconfig.PNG)
+![menuconfig](/../assets/img/mingw_make_menuconfig.PNG)
 
 then select `Default serial port` and hit enter.
-![Default serial port](../assets/img/mingw_make_menuconfig1.PNG)
+![Default serial port](/../assets/img/mingw_make_menuconfig1.PNG)
 
 If you know your port,
 great, if you don't, you can check the arduino IDE, or you can check your system devices under COM ports.
-![Enter serial Port](../assets/img/mingw_make_menuconfig2.PNG)
+![Enter serial Port](/../assets/img/mingw_make_menuconfig2.PNG)
 
 Use the arrow keys to select the save option at the bottom and hit save. Then Exit.
 
 Now, do a `make flash`. Theoretically, you should see a build happening.
 
 After the build, comes the flash
-![flash](../assets/img/mingw_flash.PNG)
+![flash](/../assets/img/mingw_flash.PNG)
 
 We can check our flash was a success with `make monitor`
-![monitor](../assets/img/mingw_monitor.PNG)
+![monitor](/../assets/img/mingw_monitor.PNG)
 
 ### Troubleshooting
 If your ESP01s is not lighting up with the serial, try resetting it with. The LED lights up on every reset of the board.
