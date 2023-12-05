@@ -12,12 +12,12 @@ redirect_from:
 <ul>
   <h3>
     <a href="{{ post.url }}">
-        <div class="related-thumbnail">
-          {% if post.image %}
-            <div class="crop-container">
-              <img src="{{ site.url }}{{ site.baseurl }}/assets/img/post_header_images/{{ post.image }}">
-            </div>
-          {% endif %}
+      <div class="related-thumbnail">
+        {% if post.image %}
+          <div class="crop-container">
+            <img src="/assets/img/post_header_images/{{ post.image }}">
+          </div>
+        {% endif %}
       </div>
     <div class="related-title">
         {{ post.title }}
