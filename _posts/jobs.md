@@ -34,6 +34,9 @@ A promising alternative I've found is [Climate Tech List](https://www.climatetec
 Another is [Zip Recruiter](https://www.ziprecruiter.com/). Key words and locations in their search actually work (that's a low bar, I know). I haven't dug into the features of this site, but it seems promising.
 ![Zip Recruiter Search](/../assets/img/jobs/jobs3.PNG)
 
+https://startup.jobs/
+
+
 And, yes, I know recruiters exist. And I have talked to many in every job search I've done. But, good recruiters are rare. They also have plenty of other people and job titles to focus on, and can't dedicate nearly as much time as I can to finding me a job.
 
 There at least have been some improvements in technology that help with job hunting. With the popularization of Large Language Models like ChatGPT, generating the bones of a cover letter takes seconds. By inputting the job description and a resume, a tailor-made (though written as a freshmen college essay) cover letter is generated. As with all AI generated content, some tweaking, or out right rewriting, is needed. While this may be a moral gray area, cover letter examples online seem to be largely similar, following a well defined format. It's nearly a perfect example of a suitable application of a LLM. Cover letters may become a thing of the past, due to the new tools available. This sort of change, however, takes time.
