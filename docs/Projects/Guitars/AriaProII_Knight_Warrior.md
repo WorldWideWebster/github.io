@@ -5,12 +5,12 @@ parent: Guitars
 grand_parent: Projects
 ---
 
-Pickguard SVG files, free to download and use for yourself: 
+Pickguard SVG files, free to download and use for yourself:
 [Pointy](/assets/img/guitars/KW/apii_kw_pg_pointy.svg)  |
 [Rounded](/assets/img/guitars/KW/apii_kw_pg_pointy.svg)
 
 About a decade ago from writing this (2023), I picked up my first real guitar since moving to MA.
-I had an Aria acoustic, which was the guitar I learned on, so I knew the name Aria. 
+I had an Aria acoustic, which was the guitar I learned on, so I knew the name Aria.
 Aria Pro OO was their 80's attempt at modern rebranding.
 
 \$60 later, I had an Aria Pro II Knight Warrior, which was in playable, yet rough shape.
@@ -28,6 +28,7 @@ I had attempted to make a new pickguard out of a sheet of polycarbonate with a d
 About 8 years later, I decided to try to find a new pickguard. I found [PickguardPlanet](pickguardplanet.com), who were very helpful (at first).
 I accidentally ordered the wrong pickguard, but was ghosted by them, trying to get the right one. Apparently there were 2 shapes,
 one to fix the breaking by the jack, that all of these models had.
+
 ![wrong pickguard from pickguard planet](/assets/img/guitars/KW/kw_pg_ordered.jpg)
 ![wrong pickguard from pickguard planet](/assets/img/guitars/KW/kw_pg_mismatch.png)
 
@@ -38,13 +39,16 @@ I have some experience with GIMP, so I scoured the internet for pictures of Knig
 and scaled them with pictures of my pickguards, and made a vector file to cut a new one.
 
 I used a hand full of pictures, and scaled/skewed them all. This is probably the most layers I've worked with.
+
 ![Knight Warrior images overlayed to show how many image layers I was working with](/assets/img/guitars/KW/KW_design.png)
 
 I then used a cricut to check the fit, and once that was adjusted, threw it on the router. It only took 2 sheets of plastic to get right.
+
 ![router with plastic 1](/assets/img/guitars/KW/kw_pg_router1.jpg)
 ![router with plastic 2](/assets/img/guitars/KW/kw_pg_router2.jpg)
 
 After a successful cut, I threw on the drill press to chamfer the mounting screw holes. Then it was time to finally mount it.
+
 ![New pickguard in place](/assets/img/guitars/KW/kw_new1.jpg)
 
 Noticing the guitar could use a good cleanup and setup, I disassembled everything. I filled some of the dents, and buffed the paint to a shine. 
@@ -54,6 +58,7 @@ It plays like a dream. This thing is probably equivalent in build quality to MIA
 ![Guitar looks good](/assets/img/guitars/KW/kw_final.jpg)
 
 With an ad this racey, how could the guitar not be good? It was so easy to find years earlier, so might as well be a new place to host it.
-![Knight Warrior ad 1](/assets/img/guitars/KW/KW_ad1.jpeg)
 
-![Knight Warrior ad 2](/assets/img/guitars/KW/KW_ad2.jpeg)
+![Knight Warrior ad 1](/assets/img/guitars/KW/kw_ad1.jpeg)
+
+![Knight Warrior ad 2](/assets/img/guitars/KW/kw_ad2.jpeg)
