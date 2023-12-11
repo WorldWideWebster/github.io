@@ -5,13 +5,15 @@ parent: Guitars
 grand_parent: Projects
 ---
 
+### TLDR:
 Pickguard SVG files, free to download and use for yourself:
 [Pointy](/assets/img/guitars/KW/apii_kw_pg_pointy.svg)  |
 [Rounded](/assets/img/guitars/KW/apii_kw_pg_pointy.svg)
 
+# Intro
 About a decade ago from writing this (2023), I picked up my first real guitar since moving to MA.
 I had an Aria acoustic, which was the guitar I learned on, so I knew the name Aria.
-Aria Pro OO was their 80's attempt at modern rebranding.
+Aria Pro II was their 80's attempt at modern rebranding.
 
 \$60 later, I had an Aria Pro II Knight Warrior, which was in playable, yet rough shape.
 
@@ -22,9 +24,11 @@ At some point and time, probably around 2014, the pickguard around the jack brok
 You can see it in this photo
 ![Knight warrior highlighted in guitar collection](/assets/img/guitars/KW/guitar_spread_kw.jpg)
 
+# Attempt 1
 I had attempted to make a new pickguard out of a sheet of polycarbonate with a dremel, but the quality just wasn't what I wanted.
 ![hand made pickguard attempt](/assets/img/guitars/KW/kw_pg_handmade.jpg)
 
+# Attempt 2
 About 8 years later, I decided to try to find a new pickguard. I found [PickguardPlanet](pickguardplanet.com), who were very helpful (at first).
 I accidentally ordered the wrong pickguard, but was ghosted by them, trying to get the right one. Apparently there were 2 shapes,
 one to fix the breaking by the jack, that all of these models had.
@@ -33,6 +37,8 @@ one to fix the breaking by the jack, that all of these models had.
 ![wrong pickguard from pickguard planet](/assets/img/guitars/KW/kw_pg_mismatch.png)
 
 Back in storage the guitar went.
+
+# Attempt 3
 
 Until my friend had purchased a 4'x4' CNC router table. And she offered to let me use it? Score.
 I have some experience with GIMP, so I scoured the internet for pictures of Knight Warriors, 
@@ -49,8 +55,11 @@ I then used a cricut to check the fit, and once that was adjusted, threw it on t
 
 After a successful cut, I threw on the drill press to chamfer the mounting screw holes. Then it was time to finally mount it.
 
+## Assembly
+
 ![New pickguard in place](/assets/img/guitars/KW/kw_new1.jpg)
 
+## Clean Up
 Noticing the guitar could use a good cleanup and setup, I disassembled everything. I filled some of the dents, and buffed the paint to a shine. 
 I added a few layers of homemade shielding paint. I leveled, crowned, and buffed the frets. I oiled the fretboard. Then reassembled it all.
 

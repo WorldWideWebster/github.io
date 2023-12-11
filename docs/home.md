@@ -15,3 +15,5 @@ I’m Sean Webster. I’m an embedded software engineer with too many hobbies, a
 This is my place to get stuck in the weeds and live there.
 
 I like taking photos, and have currently decided to use them for blog cover photos.
+
+[Would You Like To Know More?](/about)
