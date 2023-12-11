@@ -17,7 +17,7 @@ I've been updating the blog a ton, to avoid actually doing the coding projects I
 The blog update has caused it to greatly slow down. I've tried batch editing my photos to make them much smaller, and it seams to have worked.
 Thanks to [BIMP](https://alessandrofrancesconi.it/projects/bimp/), a plugin for GIMP
 
-I've added my [guitars projects](/Projects/Guitars), and specifically my work on my [Aria Pro II Knight Warrior](/Projects/Guitars/AriaProII_Knight_Warrior)
+I've added my [guitars projects](/Projects/Guitars), and specifically my work on my [Aria Pro II Knight Warrior](/Projects/Guitars/AriaProII_Knight_Warrior) that I completed this week.
 
 I've added the [ViewSTL Plugin](https://www.viewstl.com/plugin/), with a lot of help from [Slim Nate](https://slimnate.com/blogging/tutorial/2021/04/18/displaying-3d-models.html).
 This allowed me to display my 3d models that I've created, [here](/Projects/3D_Printing/)
@@ -25,3 +25,10 @@ This allowed me to display my 3d models that I've created, [here](/Projects/3D_P
 I still have a bunch of projects that I plan to add to the projects pages. A guitar I've built, and a bunch of 3D prints.
 
 For the time being I want to commit to weekly blog posts, even if they're not of much substance, themselves. However, some of the pages and changes I've made are more work than a blog post.
+
+## Some interesting papers I've come across this week:
+[Frequency Response Evaluation of Guitar Bodies with Different Bracing Systems](https://www.mdpi.com/2073-8994/12/5/795)
+
+[A compiler for 3D machine knitting](https://dspace.mit.edu/handle/1721.1/134995)
+
+[A New Threat to Honey Bees, the Parasitic Phorid Fly Apocephalus borealis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3250467/)
