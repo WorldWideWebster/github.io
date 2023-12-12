@@ -17,7 +17,10 @@ Aria Pro II was their 80's attempt at modern rebranding.
 
 \$60 later, I had an Aria Pro II Knight Warrior, which was in playable, yet rough shape.
 
+
 ![my Knight Warrior, first known picture](/assets/img/guitars/KW/kw_old1.jpg)
+
+After replacing many of the Kahler Flyer parts that were missing, from [Frets On The Net](https://fretsonthenet.com/), I played it for about a year.
 
 At some point and time, probably around 2014, the pickguard around the jack broke. The guitar then went into cold storage.
 
