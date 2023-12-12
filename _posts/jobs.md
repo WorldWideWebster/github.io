@@ -36,6 +36,12 @@ Another is [Zip Recruiter](https://www.ziprecruiter.com/). Key words and locatio
 
 https://startup.jobs/
 
+https://ev.careers/
+
+https://www.dofactory.com/
+
+# Flat out awful
+https://www.jobleads.com/
 
 And, yes, I know recruiters exist. And I have talked to many in every job search I've done. But, good recruiters are rare. They also have plenty of other people and job titles to focus on, and can't dedicate nearly as much time as I can to finding me a job.
 
@@ -46,11 +52,3 @@ I've been told that the end of the year is the slowest time to find a job. This 
 
 On top of that, this is definitely a bad year, especially for the tech sector. And remote jobs. I've seen some jobs fill their applicant pool in a day - it's crazy.
 
-## Blog Updates
-This is my personal dev blog, not a job hunting blog.
-
-I plan to continue my wifi thermometer project - and use it in my compost outdoors, maybe in my indoor compost, and possibly in my beehives. It's a simple project, a test for if I can write a decent tutorial, and a good stepping stone to kick off my dev blog. I may play around with other projects during its development, but have numerous ideas for projects after.
-
-I have completely changed my blog layout, chosen a new theme and modified it. I chose [Just the docs](https://just-the-docs.github.io/just-the-docs/), but it was missing post functionality. I shamelessly pulled in some elements from my previous theme, Millennial. I've also added watermarks to my photos. Some of the new elements work, and some of the old elements no longer work
-
-I've chosen to include a projects directory, too. I've added my abandoned [game engine](/docs/Projects/game_engine.md), the [wifi thermometer](/docs/Projects/wifi_thermometer.md), and the [blog](/docs/Projects/blog.md). I may find a way to categorize my blog posts with tags to create a tutorial directory. I'm also looking for a way to embedded parts of blog posts into pages.

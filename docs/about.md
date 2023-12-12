@@ -25,6 +25,7 @@ fishkeeper, machinist, handyman, homeowner, motorcyclist, 3d modeler, naturalist
   - Worked on bug fixes for a surgical robot
 - Consumer robotics, where I was on the autonomous lawnmower project doing everything from hardware/software factory support to complex reactive behaviours and environment characterization.
 - Automotive, where I worked with automotive grade Linux and flutter.
+- Consumer Aquariums, where I worked on the next generation of smart aquarium pumping products
 
 I've created projects from scratch, and I've worked on projects with billions of lines of code.
 
