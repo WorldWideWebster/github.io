@@ -2,7 +2,7 @@
 layout: page
 title: 3D Printing
 parent: Projects
-permalink: /projects/3D_printing
+permalink: /projects/3D_Printing
 has_children: true
 
 ---

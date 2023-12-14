@@ -11,27 +11,37 @@ Pickguard SVG files, free to download and use for yourself:
 [Rounded](/assets/img/guitars/KW/apii_kw_pg_pointy.svg)
 
 # Intro
-About a decade ago from writing this (2023), I picked up my first real guitar since moving to MA.
-I had an Aria acoustic, which was the guitar I learned on, so I knew the name Aria.
+Around 2013, I picked up my first professional guitar, an Aria Pro II Knight Warrior off of Craigslist.
+I saw professional due the specs of this guitar: Kahler Flyer Tremolo Bridge, Locking Nut, Nice tuners, 22 frets, and blade pickups.
+An Aria acoustic was the guitar I learned how to play on, so I knew the name Aria.
 Aria Pro II was their 80's attempt at modern rebranding.
+This guitar started the long line of acquisitions of vintage Japanese and other obscure instruments, and lifelong appreciation of quality and how to find it.
 
-\$60 later, I had an Aria Pro II Knight Warrior, which was in playable, yet rough shape.
+With an ad this racey, how could the guitar not be good?
 
+![Knight Warrior ad 1](/assets/img/guitars/KW/kw_ad1.jpeg)
+
+I paid something like \$60. The Tremolo was missing nearly half of the parts. Stickers littered half of the guitar. The guitar was in playable, yet rough shape.
 
 ![my Knight Warrior, first known picture](/assets/img/guitars/KW/kw_old1.jpg)
 
-After replacing many of the Kahler Flyer parts that were missing, from [Frets On The Net](https://fretsonthenet.com/), I played it for about a year.
+After replacing many of the Kahler Flyer parts that were missing or worn - fine tuning screws, locking nut screws and nuts, and the cantilever spring assembly,
+from [Frets On The Net](https://fretsonthenet.com/), I played it for about a year.
 
-At some point and time, probably around 2014, the pickguard around the jack broke. The guitar then went into cold storage.
+At some point and time, probably around 2014, the pickguard around the jack broke, due to a poor design of having one mounting screw near the jack. 
+It seems Aria knew about this issue, and changed the pickguard design the next year, to have two screws near the jack. 
+
+Due to the broken pickguard, the guitar then went into cold storage in my closet.
 
 You can see it in this photo
 ![Knight warrior highlighted in guitar collection](/assets/img/guitars/KW/guitar_spread_kw.jpg)
 
-# Attempt 1
-I had attempted to make a new pickguard out of a sheet of polycarbonate with a dremel, but the quality just wasn't what I wanted.
+# Pickguard Fabrication Attempt 1
+Soon after, I had attempted to make a new pickguard out of a sheet of polycarbonate, by tracing the old one and following the line with a Dremel. 
+But, after a few slips with the dremel tool, the quality of the output just wasn't what I wanted. So, back into storage the guitar went.
 ![hand made pickguard attempt](/assets/img/guitars/KW/kw_pg_handmade.jpg)
 
-# Attempt 2
+# Pickguard Fabrication Attempt 2
 About 8 years later, I decided to try to find a new pickguard. I found [PickguardPlanet](pickguardplanet.com), who were very helpful (at first).
 I accidentally ordered the wrong pickguard, but was ghosted by them, trying to get the right one. Apparently there were 2 shapes,
 one to fix the breaking by the jack, that all of these models had.
@@ -41,17 +51,23 @@ one to fix the breaking by the jack, that all of these models had.
 
 Back in storage the guitar went.
 
-# Attempt 3
+# Pickguard Fabrication Attempt 3
 
 Until my friend had purchased a 4'x4' CNC router table. And she offered to let me use it? Score.
-I have some experience with GIMP, so I scoured the internet for pictures of Knight Warriors, 
+I have some experience with GIMP, so I scoured the internet for pictures of Knight Warriors,
 and scaled them with pictures of my pickguards, and made a vector file to cut a new one.
 
 I used a hand full of pictures, and scaled/skewed them all. This is probably the most layers I've worked with.
 
 ![Knight Warrior images overlayed to show how many image layers I was working with](/assets/img/guitars/KW/KW_design.png)
 
-I then used a cricut to check the fit, and once that was adjusted, threw it on the router. It only took 2 sheets of plastic to get right.
+I then used a Cricut to check the fit, by cutting a sheet of paper and dry fitting it to the guitar. And, once that was adjusted,
+I knew it was time to submit it to the router. 
+
+I had earlier purchased 2 sheets of [Fleor brand Pickguard Plastic](https://www.amazon.com/dp/B06XXX272M) from Amazon. I chose the 'Tiger Stripe'
+pattern to emulate the original decal that covered the guitar, placed there by its previous owner. I also purchased material to match the OEM guard.
+
+It only took 2 sheets of plastics worth of trial and error to get right, with the Tiger Stripe material creating a finished product.
 
 ![router with plastic 1](/assets/img/guitars/KW/kw_pg_router1.jpg)
 ![router with plastic 2](/assets/img/guitars/KW/kw_pg_router2.jpg)
@@ -63,14 +79,10 @@ After a successful cut, I threw on the drill press to chamfer the mounting screw
 ![New pickguard in place](/assets/img/guitars/KW/kw_new1.jpg)
 
 ## Clean Up
-Noticing the guitar could use a good cleanup and setup, I disassembled everything. I filled some of the dents, and buffed the paint to a shine. 
-I added a few layers of homemade shielding paint. I leveled, crowned, and buffed the frets. I oiled the fretboard. Then reassembled it all.
+Noticing the guitar could use a good cleanup and setup, I disassembled everything. I filled some of the dents, cracks, and scratches with CA glue, and buffed the paint to a shine.
+I added a few layers of homemade shielding paint. I added copper shielding tape to the back of the pickguard. I leveled, crowned, and buffed the frets. I oiled the fretboard. Then reassembled it all.
 
-It plays like a dream. This thing is probably equivalent in build quality to MIA Fenders.
+This guitar plays like a dream. It stays in tune, has a unique tone, a comfortable neck, and is pretty light. The sound of it reminds me of my college years, where it was one of my main
+escapes from the stresses of college. 
+This guitar is equivalent in build quality and materials to made in America Fenders. It is a true professional player's guitar.
 ![Guitar looks good](/assets/img/guitars/KW/kw_final.jpg)
-
-With an ad this racey, how could the guitar not be good? It was so easy to find years earlier, so might as well be a new place to host it.
-
-![Knight Warrior ad 1](/assets/img/guitars/KW/kw_ad1.jpeg)
-
-![Knight Warrior ad 2](/assets/img/guitars/KW/kw_ad2.jpeg)

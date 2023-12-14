@@ -11,7 +11,7 @@ toc: false
 <sup>Picture: Koi fish in pond at Boboli Gardens, Florence, Italy</sup>
 
 # An Update
-I've started to work on my Wifi thermometer project again. So far, I plan to use it in my compost outdoors, maybe in my indoor compost, and possibly in my beehives. It's a simple project, a test for if I can write a decent tutorial, and a good stepping stone to kick off my dev blog. I may play around with other projects during its development, but have numerous ideas for projects after.
+I've started to work on my blog, as well as my Wifi thermometer project again. So far, I plan to use it in my compost outdoors, maybe in my indoor compost, and possibly in my beehives. It's a simple project, a test for if I can write a decent tutorial, and a good stepping stone to kick off my dev blog. I may play around with other projects during its development, but have numerous ideas for projects after.
 
 ## Blog Updates
 I have completely changed my blog layout, chosen a new theme and modified it. I chose [Just the docs](https://just-the-docs.github.io/just-the-docs/), but it was missing post functionality. I shamelessly pulled in some elements from my previous theme, Millennial. I have added the ability to show blog posts in the sidebar. I also added watermarks to my photos. Some of the new elements work, and some of the old elements no longer work - it's still a work in progress. I don't like the blog to take up most of my project time, but it has.

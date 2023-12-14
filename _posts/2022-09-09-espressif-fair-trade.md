@@ -3,7 +3,7 @@ layout: post
 parent: Posts
 title: "Espressif Fair Trade Bean Edition: Inspecting esp-open-sdk and esp-open-rtos"
 author: "Sean Webster"
-categories: [blog, projects]
+categories: [blog]
 tags: [blog, espressif, ESP8266, ESP01, FreeRTOS]
 image: path1.jpg
 toc: true
