@@ -80,6 +80,7 @@ After a successful cut, I threw on the drill press to chamfer the mounting screw
 
 ## Clean Up
 Noticing the guitar could use a good cleanup and setup, I disassembled everything. I filled some of the dents, cracks, and scratches with CA glue, and buffed the paint to a shine.
+I resoldered all of the broken and bad connections. What I originally thought was a coil tap is instead a tone bypass.
 I added a few layers of homemade shielding paint. I added copper shielding tape to the back of the pickguard. I leveled, crowned, and buffed the frets. I oiled the fretboard. Then reassembled it all.
 
 This guitar plays like a dream. It stays in tune, has a unique tone, a comfortable neck, and is pretty light. The sound of it reminds me of my college years, where it was one of my main
