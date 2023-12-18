@@ -17,16 +17,17 @@ The goal is to create an IoT Temperature Probe as a design to production product
 Hopefully by fully documenting the process, it can work as a sort of tutorial or stepping stone for other people.
 # Project Updates: IoT Temperature Probe
 I'm officially introducing my IoT Temperature Probe project as in development.
+The ideal use case is to put a probe in my compost, aquariums, and beehives. This project is as much about learning as it is about teaching. 
+I plan to document each step meticulously, hoping to fill any gaps in my understanding and provide a comprehensive guide for others interested in similar IoT ventures.
 
-{% assign tempProbe = site.pages | where:"url", "/Projects/iot_temp_probe/iot_temp_probe/" | first %}
-
-{{ tempProbe.content }}
+This project will consist of an [ESP-01](https://www.microchip.ua/wireless/esp01.pdf), a [DS18B20](https://datasheets.maximintegrated.com/en/ds/DS18B20.pdf) 
+temperature probe, and a (so far unspecced) power supply.
 
 {% assign designConsiderations = site.pages | where:"url", "/Projects/iot_temp_probe/design_considerations/" | first %}
 
 {{ designConsiderations.content }}
 
-This can be found at [/Projects/iot_temp_probe/design_considerations/](/Projects/iot_temp_probe/design_considerations/)
+This can be found at [the IoT Temp Probe Design Considerations page](/Projects/iot_temp_probe/design_considerations/)
 
 # Blog Updates
 ## Site Improvements

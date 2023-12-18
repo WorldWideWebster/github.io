@@ -10,4 +10,5 @@ I am in the process of designing an IoT temperature probe, with a waterproof pro
 The ideal use case is to put a probe in my compost, aquariums, and beehives. This project is as much about learning as it is about teaching. 
 I plan to document each step meticulously, hoping to fill any gaps in my understanding and provide a comprehensive guide for others interested in similar IoT ventures.
 
-This project will consist of an ESP8266, a DS18B20 temperature probe, and a (so far unspecced) power supply.
+This project will consist of an [ESP-01](https://www.microchip.ua/wireless/esp01.pdf), a [DS18B20](https://datasheets.maximintegrated.com/en/ds/DS18B20.pdf),
+ and a (so far unspecced) power supply.

@@ -14,7 +14,7 @@ toc: true
 
 # Design
 ## Hardware Components
-- ESP01
+- [ESP-01](https://www.microchip.ua/wireless/esp01.pdf)
 - [DS18B20](https://www.analog.com/media/en/technical-documentation/data-sheets/DS18B20.pdf)
 - Power Supply (Currently Unknown)
   
