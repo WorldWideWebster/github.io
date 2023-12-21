@@ -6,8 +6,13 @@ grand_parent: Projects
 nav_order: 1
 ---
 ## Design Considerations
-Before I start writing the proof of concept software, it's a good idea to have a vague feeling of the direction I want the project to go.
+### Foreward
+I've started this project, mainly as a way to utilize hardware I've had sitting around, but also to gain experience and learn about the whole
+product development process. Key ideas I want to come away from this product are: a better understanding of Wifi, circuit development, and powering
+electronics. I want this project to become a sort of stepping stone for future projects. Hopefully some of the modules I create and some of the things
+I learn are immediately transferable to the next project.
 
+Before I start writing the proof of concept software, it's a good idea to have a vague feeling of the direction I want the project to go.
 ### Project Goal and Scope
 To measure temperature, and send that data back to a server via MQTT over Wifi.
 
@@ -35,8 +40,8 @@ No, all of these things work together.
 - **DS18B20**: Operational experience with Arduino libraries.
 - **OTA Updates**: Experience with other systems, but not ESP8266.
 
-### Black Box Areas
-- **Power**: Understanding beyond the basic requirement of 3.3V input.
+### Known Unknowns
+- **Power**: My understanding beyond the basic requirement of 3.3V input and basic circuits is limited.
 - **Enclosure**: Deciding between indoor or outdoor use.
 - **WiFi Security**: Recognizing its importance but lacking deep knowledge.
 

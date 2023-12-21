@@ -12,3 +12,5 @@ gem "jekyll-paginate", "~> 1.1"
 gem "jekyll-redirect-from", "~> 0.16.0"
 
 gem "jekyll-seo-tag"
+
+gem 'jekyll-toc'

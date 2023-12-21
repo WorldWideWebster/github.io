@@ -36,6 +36,10 @@
     </script>
   {% endif %}
 
+  {% if site.google_analytics and jekyll.environment == 'production' %}
+  {% include analytics.html %}
+  {% endif %}
+  
   {% if site.search_enabled != false %}
     <script src="{{ '/assets/js/vendor/lunr.min.js' | relative_url }}"></script>
   {% endif %}
