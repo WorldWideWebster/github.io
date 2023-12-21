@@ -17,6 +17,8 @@ https://www.digikey.com/en/products/detail/sensirion-ag/SEN55-SDN-T/16342756
 https://stackoverflow.com/questions/310974/what-is-tail-call-optimization
 mmio
 
+MIPI CSI/DSI,
+
 RMII
 Ethernet Arm
 DMA
@@ -26,10 +28,14 @@ DMA
 SIMD
 PWM
 DSP
-Software in the Loop (SITL) and Hardware in the Loop (HITL
+Software in the Loop (SITL) and Hardware in the Loop (HITL)
 EERPROM
+
+SBCs - Raxda, RasPi, Orange Pi
 Compute modules
 The 8266 is outdated, what is the next cheap chip?
+
+decoupling capacitors
 
 Non technical:
 Third place
