@@ -7,8 +7,7 @@ nav_order: 2
 mitmID: 3rxKZWQk_DY
 toc: true
 ---
-{{ toc }}
-
+# DRAFT
 # Design Overview
 ## Hardware Components
 - [ESP-01S](https://www.microchip.ua/wireless/esp01.pdf)
@@ -119,7 +118,7 @@ The DS18B20 draws 4mA, which is negligible. This gives me room to put LEDs on, i
 The schematic to include the LM3671 breakout in the project looks like this (thanks to adafruit):
 ![Design Schematic for LM3671](/assets/img/temp_probe/design_schematic_LM3671.PNG)
 
-## Conclusion
+## Conclusion: Hardware
 Until the buck converter I've ordered arrive, I've substituted my Arduino for the power supply and UART programmer.
 
 An overview of that looks something like:
@@ -156,7 +155,7 @@ Included in it are many examples, including those that show capabilities for a W
 #### Key Features:
 - **RTOS Foundation**: Built on FreeRTOS, the SDK facilitates concurrent handling of multiple tasks, crucial for complex IoT applications.
 - **Development Environment Consistency**: Aligns with ESP-IDF, Espressif’s official development framework for ESP32, offering a familiar environment for those accustomed to Espressif's platforms.
-- **Flexible Build System**: Utilizes a Python-based build system over CMake and make, granting developers flexibility and precision in the compilation process.
+- **Flexible Build System**: Utilizes a Python-based build system layered over CMake and make, granting developers flexibility and precision in the compilation process.
 - **Comprehensive Development Tools**: Includes a full suite of tools, libraries, and documentation, streamlining IoT application development.
 - **Rich Libraries and APIs**: Provides extensive libraries and APIs for GPIO, UART, I2C, SPI, PWM, and more, facilitating seamless hardware interactions.
 - **WiFi Capabilities**: 
@@ -176,7 +175,7 @@ For interfacing with the DS18B20 temperature sensor, various open-source driver 
 - [DavidAntliff's esp32-ds18b20](https://github.com/DavidAntliff/esp32-ds18b20) and [esp32-owb](https://github.com/DavidAntliff/esp32-owb): A comprehensive set of drivers and libraries providing robust support for DS18B20 on ESP32 platforms.
 
 ### MQTT
-For the MQTT protocol implementation, the plan is to utilize the [ESP CoreMQTT](https://github.com/espressif/esp-freertos-coremqtt) library. This library is well-suited for ESP devices and offers the following features:
+For the MQTT protocol implementation, the plan is to utilize the [ESP CoreMQTT](https://github.com/espressif/esp-freertos-coremqtt) library. This library is ESP's fork of CoreMQTT, and has the following features:
 - **Seamless Integration with FreeRTOS**: Designed to work effortlessly with the FreeRTOS ecosystem, ensuring smooth multitasking and reliable performance.
 - **Lightweight and Efficient**: The library is optimized for minimal resource usage, making it ideal for constrained environments like the ESP8266.
 - **Support for MQTT Protocols**: Fully supports MQTT communication protocols, essential for IoT data transmission.
@@ -185,5 +184,52 @@ For the MQTT protocol implementation, the plan is to utilize the [ESP CoreMQTT](
 
 By integrating these software components, the project will benefit from robust sensor interfacing, efficient communication protocols, and reliable performance, forming a solid foundation for the IoT Temperature Probe application.
 
+### Architecture
+The IoT Temperature Probe architecture depicted in the ER diagram is based upon the ESP8266 RTOS SDK, which contains FreeRTOS and WiFi components. FreeRTOS utilizes WiFi for networking and also interfaces with the DS18B20-Driver to gather temperature data. Additionally, WiFi is a vital component within the ESP8266 RTOS SDK and is used by MQTT for communication. Temperature data is then sent to the MQTT Server via WiFi.
+
+```mermaid
+---
+title: Software Architecture
+---
+erDiagram
+    ESP8266_RTOS_SDK ||--|{ FreeRTOS : contains
+    ESP8266_RTOS_SDK ||--|| Wifi : contains
+    FreeRTOS ||--|| DS18B20-Driver : "gathers data"
+    FreeRTOS ||--|| Wifi : "utilizes for networking"
+    Wifi ||--|{ MQTT : "utilizes for communication"
+    MQTT-Server ||--|{ Wifi : "receives data"
+```
+
+### State Machine
+The state diagram represents the operational flow of the IoT Temperature Probe. It starts with a boot process, checking the DS18B20 driver, and then verifying WiFi connectivity. If the driver is okay, it proceeds to check WiFi; if not, it enters an error state. WiFi checks lead to data gathering or provisioning for credentials. Data is then transmitted or errors are indicated through blinking LEDs. The system enters deep sleep after transmission or error handling, with provisions for waking up and handling OTA updates.
+
+```mermaid
+---
+title: Software State Machine
+---
+stateDiagram-v2
+    [*] --> Boot
+    Boot --> CheckDS18B20Driver : Start
+    CheckDS18B20Driver --> CheckWiFi : Driver OK
+    Provisioning --> CheckWiFi : Credentials provided
+    CheckWiFi --> ConnectWifi : Network Available
+    CheckWiFi --> Provisioning : No WiFi credentials
+    ConnectWifi --> GetData : 
+    GetData --> TransmitData : Data Retrieved
+    CheckDS18B20Driver --> ErrorState : Driver Error
+    CheckWiFi --> BlinkLED : WiFi Error
+    ErrorState --> TransmitError : WiFi OK
+    ErrorState --> BlinkLED : WiFi Error
+    TransmitError --> DeepSleep : After Error Transmission
+    BlinkLED --> DeepSleep : After LED Blink
+    TransmitData --> DeepSleep : After Data Transmission
+    DeepSleep --> Boot : Wake up
+    Provisioning --> Wait : No WiFi credentials
+    Wait --> Provisioning
+    Wait --> DeepSleep : Timeout
+    DeepSleep --> OTA_Update : OTA update received
+    OTA_Update --> Boot : Update complete
+```
+
 ## Conclusion and Next Steps
-With the key hardware components selected and the software environment established, the next phase involves prototyping and integrating these elements. Upcoming steps include testing the DS18B20 sensor with the ESP-01S and implementing the initial firmware with MQTT communication.
+With the key hardware components selected and the software environment established, the next phase involves prototyping and integrating these elements. Upcoming steps include connecting all hardware, and then testing the DS18B20 sensor with the ESP-01S and implementing the initial firmware with MQTT communication.

@@ -31,6 +31,10 @@ DSP
 Software in the Loop (SITL) and Hardware in the Loop (HITL)
 EERPROM
 
+C++20 Coroutines https://itnext.io/c-20-coroutines-complete-guide-7c3fc08db89d
+ 
+https://stackoverflow.com/questions/105014/does-the-mutable-keyword-have-any-purpose-other-than-allowing-a-data-member-to
+
 SBCs - Raxda, RasPi, Orange Pi
 Compute modules
 The 8266 is outdated, what is the next cheap chip?
@@ -47,13 +51,7 @@ https://docs.simplefoc.com/
 https://feilipu.me/2011/09/22/freertos-and-libraries-for-avr-atmega/
 https://github.com/feilipu/avrfreertos
 
-Time for a new project. For legal reasons, I can't touch my last idea for a year.
 
-A new idea for a project: An indoor irrigation system.
-The plan:
-
-
-It's simple enough, and fits with my needs and wants.
 
 What is an application engineer vs other stuff?
 
