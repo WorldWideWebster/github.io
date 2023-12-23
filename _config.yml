@@ -177,6 +177,7 @@ plugins:
   - jekyll-paginate
   - jekyll-redirect-from
   - jekyll-toc
+  # - jekyll-spaceship
 
 kramdown:
   syntax_highlighter_opts:
@@ -186,7 +187,7 @@ kramdown:
 mermaid:
   # Version of mermaid library
   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
-  version: "9.1.3"
+  version: "10.6.1"
 
 compress_html:
   clippings: all

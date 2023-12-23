@@ -7,7 +7,6 @@ nav_order: 2
 mitmID: 3rxKZWQk_DY
 toc: true
 ---
-# DRAFT
 # Design Overview
 ## Hardware Components
 - [ESP-01S](https://www.microchip.ua/wireless/esp01.pdf)
@@ -15,8 +14,10 @@ toc: true
 - [LM3671](https://cdn-shop.adafruit.com/product-files/2745/P2745_Datasheet.pdf)
 
 ## ESP-01S
-![ESP01S](http://en.ai-thinker.com/Uploads/file/20220904/20220904080231_28957.jpg)
+![ESP01S](/assets/img/temp_probe/esp01.jpg)
+
 *ESP-01S Module. Source: en.ai-thinker.com*
+
 
 The ESP-01S is a carrier board with ESP8266, developed by Ai-thinker, with onboard antenna and 5MB SPI flash. The low price, form factor,
 and libraries have made it a common board for the maker community.
@@ -119,7 +120,7 @@ The schematic to include the LM3671 breakout in the project looks like this (tha
 ![Design Schematic for LM3671](/assets/img/temp_probe/design_schematic_LM3671.PNG)
 
 ## Conclusion: Hardware
-Until the buck converter I've ordered arrive, I've substituted my Arduino for the power supply and UART programmer.
+Until the buck converter I've ordered arrives, I've substituted my Arduino for the power supply and UART programmer.
 
 An overview of that looks something like:
 ![Design Schematic With Arduino as PSU and UART Passthrough](/assets/img/temp_probe/design_schematic_arduino.PNG)
@@ -134,6 +135,7 @@ A quick high level overview from TI, that I found helpful:
 
 ## Software Components
 - [ESP8266 RTOS SDK](https://github.com/espressif/ESP8266_RTOS_SDK/tree/master)
+  - FreeRTOS
   - WiFi
     - Provisioning
     - WPA/WPA2
@@ -150,7 +152,7 @@ A quick high level overview from TI, that I found helpful:
 ### ESP8266 RTOS SDK
 The ESP8266 RTOS SDK, hosted on [GitHub](https://github.com/espressif/ESP8266_RTOS_SDK/tree/master), is an IoT development framework SDK on top of a FreeRTOS port to the ESP8266EX, in the style of the ESP-IDF, 
 which is the popular development environment for the ESP32 devices by Espressif.
-Included in it are many examples, including those that show capabilities for a WiFi client, provisioning WiFi, WPA/WPA2 security, and OTA updates.
+Included in it are many examples, including those that show capabilities for a WiFi client, provisioning WiFi, WPA/WPA2 security, and OTA updates, making it perfect for my project.
 
 #### Key Features:
 - **RTOS Foundation**: Built on FreeRTOS, the SDK facilitates concurrent handling of multiple tasks, crucial for complex IoT applications.
@@ -159,7 +161,7 @@ Included in it are many examples, including those that show capabilities for a W
 - **Comprehensive Development Tools**: Includes a full suite of tools, libraries, and documentation, streamlining IoT application development.
 - **Rich Libraries and APIs**: Provides extensive libraries and APIs for GPIO, UART, I2C, SPI, PWM, and more, facilitating seamless hardware interactions.
 - **WiFi Capabilities**: 
-  - Supports the creation of WiFi clients for network connectivity.
+  - Supports the creation of WiFi clients and Access Points for network connectivity.
   - Features WiFi provisioning and secure connections using WPA/WPA2 protocols.
 - **OTA Updates Support**: Enables Over-The-Air updates, crucial for remote firmware upgrades and maintenance.
 - **Power Management**: Offers functions and tools for efficient power usage, critical for battery-operated or energy-efficient devices.
@@ -168,7 +170,8 @@ Included in it are many examples, including those that show capabilities for a W
 By leveraging the ESP8266 RTOS SDK, the project aims to create an efficient, secure, and robust system for temperature measurement and data transmission. This SDK aligns with the project's objectives of utilizing existing hardware and software resources, ensuring scalability, and providing a reliable foundation for future enhancements.
 
 ### DS18B20 Driver
-For interfacing with the DS18B20 temperature sensor, various open-source driver options are available. After the prototyping phase, the most suitable driver will be selected based on performance and compatibility. Some potential options include:
+For interfacing with the DS18B20 temperature sensor, various open-source driver options are available. After the prototyping phase, the most suitable driver will be selected based on performance and compatibility. The repos to be 
+evaluated are:
 - [StanislavLakhtin's esp-idf-onewire](https://github.com/StanislavLakhtin/esp-idf-onewire/): A driver specifically designed for ESP-IDF, offering seamless integration with ESP32 and potentially adaptable for ESP8266.
 - [Tom-TheBrand's esp32_onewire](https://github.com/Tom-TheBrand/esp32_onewire): Another ESP32-focused driver, known for its simplicity and effectiveness.
 - [PaulStoffregen's OneWire](https://github.com/PaulStoffregen/OneWire): A widely-used, versatile driver that supports a range of microcontrollers.
@@ -191,13 +194,18 @@ The IoT Temperature Probe architecture depicted in the ER diagram is based upon 
 ---
 title: Software Architecture
 ---
+%%{
+  init: {
+    'theme': 'dark'
+  }
+}%%  
 erDiagram
-    ESP8266_RTOS_SDK ||--|{ FreeRTOS : contains
-    ESP8266_RTOS_SDK ||--|| Wifi : contains
-    FreeRTOS ||--|| DS18B20-Driver : "gathers data"
-    FreeRTOS ||--|| Wifi : "utilizes for networking"
-    Wifi ||--|{ MQTT : "utilizes for communication"
-    MQTT-Server ||--|{ Wifi : "receives data"
+      ESP8266_RTOS_SDK ||--|{ FreeRTOS : contains
+      ESP8266_RTOS_SDK ||--|| Wifi : contains
+      FreeRTOS ||--|| DS18B20-Driver : "gathers data"
+      FreeRTOS ||--|| Wifi : "utilizes for networking"
+      Wifi ||--|{ MQTT : "utilizes for communication"
+      MQTT-Server ||--|{ Wifi : "receives data"
 ```
 
 ### State Machine
@@ -207,28 +215,33 @@ The state diagram represents the operational flow of the IoT Temperature Probe. 
 ---
 title: Software State Machine
 ---
-stateDiagram-v2
-    [*] --> Boot
-    Boot --> CheckDS18B20Driver : Start
-    CheckDS18B20Driver --> CheckWiFi : Driver OK
-    Provisioning --> CheckWiFi : Credentials provided
-    CheckWiFi --> ConnectWifi : Network Available
-    CheckWiFi --> Provisioning : No WiFi credentials
-    ConnectWifi --> GetData : 
-    GetData --> TransmitData : Data Retrieved
-    CheckDS18B20Driver --> ErrorState : Driver Error
-    CheckWiFi --> BlinkLED : WiFi Error
-    ErrorState --> TransmitError : WiFi OK
-    ErrorState --> BlinkLED : WiFi Error
-    TransmitError --> DeepSleep : After Error Transmission
-    BlinkLED --> DeepSleep : After LED Blink
-    TransmitData --> DeepSleep : After Data Transmission
-    DeepSleep --> Boot : Wake up
-    Provisioning --> Wait : No WiFi credentials
-    Wait --> Provisioning
-    Wait --> DeepSleep : Timeout
-    DeepSleep --> OTA_Update : OTA update received
-    OTA_Update --> Boot : Update complete
+%%{
+  init: {
+    'theme': 'dark'
+  }
+}%%  
+  stateDiagram-v2
+      [*] --> Boot
+      Boot --> CheckDS18B20Driver : Start
+      CheckDS18B20Driver --> CheckWiFi : Driver OK
+      Provisioning --> CheckWiFi : Credentials provided
+      CheckWiFi --> ConnectWifi : Network Available
+      CheckWiFi --> Provisioning : No WiFi credentials
+      ConnectWifi --> GetData : 
+      GetData --> TransmitData : Data Retrieved
+      CheckDS18B20Driver --> ErrorState : Driver Error
+      CheckWiFi --> BlinkLED : WiFi Error
+      ErrorState --> TransmitError : WiFi OK
+      ErrorState --> BlinkLED : WiFi Error
+      TransmitError --> DeepSleep : After Error Transmission
+      BlinkLED --> DeepSleep : After LED Blink
+      TransmitData --> DeepSleep : After Data Transmission
+      DeepSleep --> Boot : Wake up
+      Provisioning --> Wait : No WiFi credentials
+      Wait --> Provisioning
+      Wait --> DeepSleep : Timeout
+      DeepSleep --> OTA_Update : OTA update received
+      OTA_Update --> Boot : Update complete
 ```
 
 ## Conclusion and Next Steps
