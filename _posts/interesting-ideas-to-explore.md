@@ -56,3 +56,5 @@ https://github.com/feilipu/avrfreertos
 What is an application engineer vs other stuff?
 
 chunking - cognitive psychology
+
+https://goodereader.com/blog/product/goodisplay-2-13inch-epaperdisplay-partialrefresh-four-grayscale-stm32-eps32-monochrome-partial-update-low-power-esl
