@@ -19,7 +19,7 @@ I've made much more progress on the IoT Temp Probe. I've nearly finished the har
 {% assign prototyping = site.pages | where:"url", "/Projects/iot_temp_probe/prototyping/" | first %}
 
 {{ prototyping.content }}
-This content can  be found at [the IoT Temp Probe Design Overview page](/Projects/iot_temp_probe/prototyping/)
+This content can  be found at [the IoT Temp Probe Prototyping page](/Projects/iot_temp_probe/prototyping/)
 
 
 # What I'm reading, watching, and listening to
