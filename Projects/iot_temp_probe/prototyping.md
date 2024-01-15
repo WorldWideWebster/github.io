@@ -5,7 +5,6 @@ parent: IoT Temperature Probe
 grand_parent: Projects
 nav_order: 3
 ---
-# Draft
 ## Hardware Prototyping
 
 ### Assembling the circuit
