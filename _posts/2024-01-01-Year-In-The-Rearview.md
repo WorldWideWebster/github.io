@@ -54,7 +54,7 @@ I've seen other engineers are previous jobs with this book, and I've had it reco
 so I figured it was time to pick it up.
 
 ### Thoughts on Chapters 1-2
-These chapters introduce the ideas of unit tests, and quick introductory implementations using [CPPUTest](https://www.throwtheswitch.org/unity) and [Unity](https://cpputest.github.io/). Everything is presented very straight forward, and can
+These chapters introduce the ideas of unit tests, and quick introductory implementations using [Unity](https://www.throwtheswitch.org/unity) and [CPPUTest](https://cpputest.github.io/). Everything is presented very straight forward, and can
 easily be implemented. I've worked with Unity before, I think.
 
 ## Podcasts
