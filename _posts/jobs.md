@@ -34,14 +34,22 @@ A promising alternative I've found is [Climate Tech List](https://www.climatetec
 Another is [Zip Recruiter](https://www.ziprecruiter.com/). Key words and locations in their search actually work (that's a low bar, I know). I haven't dug into the features of this site, but it seems promising.
 ![Zip Recruiter Search](/../assets/img/jobs/jobs3.PNG)
 
-https://startup.jobs/
+https://startup.jobs/ - startup job aggregator
 
-https://ev.careers/
+https://ev.careers/ - electric vehicle jobs board
 
 https://www.dofactory.com/
 
+https://www.resume-library.com/
+
+https://lensa.com/ - another job aggregator
+
 # Flat out awful
-https://www.jobleads.com/
+https://www.jobleads.com/ - sign up, get into their system. Find jobs, but have to pay to apply.
+
+https://www.get.it/ - aggregator, not much targeting.
+
+https://www.energyjobline.com/ - energy jobs, alerts do not take location
 
 And, yes, I know recruiters exist. And I have talked to many in every job search I've done. But, good recruiters are rare. They also have plenty of other people and job titles to focus on, and can't dedicate nearly as much time as I can to finding me a job.
 
